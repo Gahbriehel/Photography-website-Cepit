@@ -464,9 +464,9 @@ h4 {
     font-size: 2.5rem;
   }
 
-/*              nav         */
+  /*              nav         */
 
-.nav_socials {
+  .nav_socials {
     display: none;
   }
 
@@ -508,7 +508,7 @@ h4 {
     display: none;
   }
 
-/*              header          */
+  /*              header          */
 
   header {
     height: fit-content;
@@ -574,9 +574,9 @@ h4 {
     width: 80%;
   }
 
-/*            booking            */
+  /*            booking            */
 
-.booking_all {
+  .booking_all {
     grid-template-columns: 40% 54%;
     gap: 6%;
   }
@@ -623,12 +623,16 @@ h4 {
     margin-top: 1rem;
   }
 
-/* -------------- booking ------------- */
-  
+  /* -------------- booking ------------- */
+
   .booking_all {
     height: fit-content;
     position: relative;
     width: 100%;
+  }
+
+  #last_name {
+    margin-top: 10px;
   }
 
   .form_left {
@@ -639,7 +643,7 @@ h4 {
     margin-top: -2rem;
   }
 
-/* -------about ------------ */
+  /* -------about ------------ */
 
   .about_container {
     margin-top: 10rem;
@@ -666,7 +670,7 @@ h4 {
     font-size: 0.6rem;
   }
 
-/* ----------------- terms & conditions ------------ */
+  /* ----------------- terms & conditions ------------ */
 
   .terms_logo {
     display: none;
